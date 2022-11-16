@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="algs4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/library/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/freemarker-2.3.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/gson-2.8.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jetty-http-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jetty-io-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jetty-server-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jetty-test-helper-5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jetty-util-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/junit-4.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/junit-jupiter-api-5.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/junit-platform-console-standalone-1.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/mockito-core-3.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/powermock-module-junit4-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/proj2a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/slf4j-simple-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/spark-core-2.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/stdlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/ucb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/websocket-api-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/websocket-client-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/websocket-server-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/websocket-servlet-9.4.35.v20201120.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/xchart-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/xchart-demo-3.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/library/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/stdlib.jar!/" />
+    </SOURCES>
+  </library>
+</component>
