@@ -3,4 +3,4 @@ Pseudo-random world generation with lighting, 2D landscape, multiplayer features
 
 ![alt text](https://github.com/yashpansari/Random-World-Generator/blob/main/line-of-sight.gif)
 
-To run the game, run ./byow/Main.main() in intelliJ with all the jar files as libraries added to the project structure.
+To run the game, run ./byow/Main.main() in intelliJ with ./library/*.jar as libraries added to the project structure.
