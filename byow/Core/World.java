@@ -32,17 +32,20 @@ public class World implements Serializable {
         addWalls();
     }
     private void addWalls() {
+        HashSet<TETile> temp = new HashSet<>();
+        temp.add(Tileset.WALL);
+        temp.add(Tileset.NOTHING);
         for (int i = 1; i < H+3; i++) {
             for (int j = 1; j < W + 3; j++) {
                 if (grid[i][j] == Tileset.NOTHING) {
-                    if (grid[i - 1][j - 1] == Tileset.FLOOR
-                            || grid[i - 1][j] == Tileset.FLOOR
-                            || grid[i + 1][j] == Tileset.FLOOR
-                            || grid[i + 1][j + 1] == Tileset.FLOOR
-                            || grid[i + 1][j - 1] == Tileset.FLOOR
-                            || grid[i - 1][j + 1] == Tileset.FLOOR
-                            || grid[i][j - 1] == Tileset.FLOOR
-                            || grid[i][j + 1] == Tileset.FLOOR) {
+                    if (!(temp.contains(grid[i - 1][j - 1])
+                            && temp.contains(grid[i - 1][j])
+                            && temp.contains(grid[i - 1][j + 1])
+                            && temp.contains(grid[i + 1][j - 1])
+                            && temp.contains(grid[i + 1][j + 1])
+                            && temp.contains(grid[i + 1][j])
+                            && temp.contains(grid[i][j - 1])
+                            && temp.contains(grid[i][j + 1]))) {
                         grid[i][j] = Tileset.WALL;
                     }
                 }
@@ -108,8 +111,7 @@ public class World implements Serializable {
         int endX = Math.max(last.getX(), next.getX());
         int startY = Math.min(last.getY(), next.getY());
         int endY = Math.max(last.getY(), next.getY());
-
-        int j1 = startX;
+        int j1 = last.getX();
         for (int i = startY; i <= endY; i++) {
             if (grid[i][j1] != Tileset.FLOOR) {
                 grid[i][j1] = Tileset.FLOOR;
@@ -118,7 +120,7 @@ public class World implements Serializable {
                 EmptiesOrdered.add(new Pair(j1, i));
             }
         }
-        int i = endY;
+        int i = next.getY();
         for (int j = startX; j <= endX; j++) {
             if (grid[i][j] != Tileset.FLOOR) {
                 grid[i][j] = Tileset.FLOOR;
